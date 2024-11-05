@@ -1,0 +1,17 @@
+IZDAROT ŠO LAI IEINSTALĒTU JEST LAI SĀKTU TESTĒT.
+
+mkdir cesis-tic-app
+cd cesis-tic-app
+npm init -y
+npm install --save-dev jest
+
+JĀPIEVIENO KODAM KLĀT 
+
+"scripts": {
+    "test": "jest"
+}
+
+LAI SĀKTU TESTU JĀIERAKSTA
+
+npm test
+
